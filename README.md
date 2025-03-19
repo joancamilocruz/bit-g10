@@ -1,6 +1,23 @@
 # bit-g10
-Este es el repositorio de apoyo
+* Desarrollo web 
+- Frontend
+- Backend
+- Fullstack
+- Internet 
+- Web
+- Navegador
+- Buscador
+- Pagina web
+- Sitio web
+- Aplicación web
 
-- Titulo
-- Descripción del proyecto
-- Autor
+*Frontend
+- html
+- css
+- Javascript
+
+*Sistema de control de versiones
+- Git
+- Github
+- Repositorio
+- README file
