@@ -11,12 +11,12 @@
 - Sitio web
 - Aplicación web
 
-*Frontend
+* Frontend
 - html
 - css
 - Javascript
 
-*Sistema de control de versiones
+* Sistema de control de versiones
 - Git
 - Github
 - Repositorio
