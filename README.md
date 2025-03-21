@@ -21,4 +21,4 @@
     - Crear un repositorio con el nombre: bit-website
     - Crear el archivo README
     - Crear el archivo index.html
-    
+    - Hable de su plato favorito, y de instrucciones de como prepararlo con una lista ordenada.

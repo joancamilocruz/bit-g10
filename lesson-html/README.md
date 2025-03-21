@@ -75,3 +75,8 @@ Semantic Tags
 ```
 <p></p>
 ```
+* Lists
+  - Ordered list
+  - Unordered
+  - Definition
+  ```
