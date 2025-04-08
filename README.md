@@ -16,6 +16,8 @@
     - css
     - Javascript
 
+* DRY (Don't repeat yourself)
+
 ## Proyectos
 1. Crear un sitio web acerca de usted mismo
     - Crear un repositorio con el nombre: bit-website
