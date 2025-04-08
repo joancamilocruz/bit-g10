@@ -1,0 +1,28 @@
+/* GLOBALS */
+* {
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    color: green;
+}
+
+h1 {
+    color: white;
+    background-color: green;
+    padding: 20px;
+}
+h2, h3, h4, h5, h6 {
+    color: greenyellow;
+}
+
+th, td {
+padding: 10px;   
+}
