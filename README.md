@@ -1,27 +1,30 @@
 # bit-g10
-* Desarrollo web 
-    - Frontend
-    - Backend
-    - Fullstack
-    - Internet 
-    - Web
-    - Navegador
-    - Buscador
-    - Pagina web
-    - Sitio web
-    - Aplicación web
-
+* Desarrollo web
+  - frontend
+  - backend
+  - full-stack
+  - internet
+  - web
+  - navegador
+  - buscador
+  - página web
+  - sitio web
+  - aplicación web
 * Frontend
-    - html
-    - css
-    - Javascript
+  - html
+  - css
+  - javascript
 
-* DRY (Don't repeat yourself)
+* DRY (Don't Repeat Yourself)
 
-## Proyectos
+## Projects
 1. Crear un sitio web acerca de usted mismo
+    - Fecha de entrega: Lunes, 7 de Abril
     - Crear un repositorio con el nombre: bit-website
-    - Crear el archivo README
-    - Crear el archivo index.html
-    - Hable de su plato favorito, y de instrucciones de como prepararlo con una lista ordenada.
+    * Crear el archivo README.md en la raíz del proyecto
+      - Información acerca del proyecto (Título, Descripción, Autor)
+    * Crear el archivo index.html en la raíz del proyecto
+      - Semántica
+    * Crear archivo CSS externo
+      - Ordenado
 
