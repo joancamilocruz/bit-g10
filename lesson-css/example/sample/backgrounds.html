@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+        .bg-color {
+            background-color: pink;
+        }
+        .bg-degrade-linear {
+            background-image: linear-gradient(red,blue);
+        }
+        .bg-degrade-radial {
+            background-image: radial-gradient(yellow,green);
+        }
+        .bg-degrade-conic {
+            background-image: conic-gradient(red,blue);
+        }
+
+        .rectangle-box {
+            width: 350px;
+            height: 150px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            background-repeat: no-repeat;
+            background-color: aqua;
+        }
+        .bg-img-large {
+            background-image: url(https://th.bing.com/th/id/R.6a2193a79bba1c2214b2d1ecdeca856b?rik=74%2fTKyxctg%2fCmA&riu=http%3a%2f%2fwww.blogerin.com%2fwp-content%2fuploads%2f2012%2f10%2fFotos-tiernas-de-perritos-wallpapers-2.jpg&ehk=2n7WA5Xz5SPLpcGw25Fh5QAQXVj7ywGhVORksb1OPE4%3d&risl=&pid=ImgRaw&r=0); 
+            background-size: cover;
+        }
+        .bg-img-small {
+            background-image: url(https://th.bing.com/th/id/OIP.mf_s97C-RAodcR_IOXai9gAAAA?rs=1&pid=ImgDetMain);
+            background-position: center;
+        }        
+    </style>
+</head>
+<body>
+    <h1>Background</h1>
+    <hr>
+    <div class="box bg-color"></div>
+    <div class="box bg-degrade-linear"></div>
+    <div class="box bg-degrade-radial"></div>
+    <div class="box bg-degrade-conic"></div>
+    <div class="rectangle-box bg-img-large"></div>
+    <div class="rectangle-box bg-img-small"></div>
+</body>
+</html>
