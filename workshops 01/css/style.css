@@ -1,9 +1,7 @@
-/* GLOBALS */
-* {
+/* TAGS*/
+   * {
     box-sizing: border-box;
-}
-
-/* GENERAL */
+   }
 
 html, body {
     height: 100%;
@@ -11,23 +9,61 @@ html, body {
 
 body {
     margin: 0;
-    color: green;
 }
 
-h1 {
-    color: white;
-    background-color: green;
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 75%;
+}
+aside {
+    width: 25%;
+}
+
+/* CLASSES */
+
+.box {
+    display:flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-orange {
+color: orange;
+}
+
+/* FIRST SECTION */
+.s-first {
+    background-image: linear-gradient(rgb(117, 171, 247), white);
+    border-radius: 0 20px 0 0;
+    padding:10px ;
+}  
+
+.s-first figure {
+    text-align: center;
+}
+
+.s-first img {
+border-radius: 50%;
+}
+
+/* MENU */
+.menu {
+display: flex;
+justify-content: end;
+gap: 20px;
+text-transform: uppercase;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
-}
-h2, h3, h4, h5, h6 {
-    color: greenyellow;
-}
-
-th, td {
-padding: 10px;   
-}
-
-.photo {
-    border-radius: 50%;
-    width: 300px;
+    text-transform: capitalize;
 }
