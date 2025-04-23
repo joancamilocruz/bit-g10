@@ -24,10 +24,6 @@ console.log(nombreVariable3)
 const nombreVariable4 = 'usando "const"'
 console.log(nombreVariable4)*/
 
-
-/* OPERADORES */
-// Asignación
-
 /* TIPOS DE DATO PRIMITIVOS */
 let miVariable;
 miVariable = undefined
@@ -46,7 +42,6 @@ miVariable = 0x01;
 //boolean
 miVariable = true
 miVariable= false
-console.log("miVariable:",miVariable) 
 
 /*
 Crear 3 constantes
@@ -56,7 +51,7 @@ Crear 3 constantes
 imprima en la consola, su nombre completo y edad usando los valores de las constantes
 Ejm: Soy pepita perez y tengo 24 años
 */
-
+/*
 const miNombre = "Joan"
 miApellido = 'Cruz'
 miEdad = '24 años'
@@ -66,3 +61,14 @@ console.log('soy joan cruz y tengo 24 años')
 console.log('soy' + ' ' + miNombre + ' ' + miApellido + ' '+ 'y tengo' + ' ' + miEdad)
 //interpolación de variables
 console.log (`soy ${miNombre} ${miApellido} y tengo ${miEdad}`)
+*/
+
+
+/* OPERADORES */
+// Asignación
+let miVariable1 = 'Pepita';
+let miVariable2 = "Perez"
+// Concatenación
+const nombreCompleto = miVariable1 + miVariable2
+miVariable2 = 10;
+
