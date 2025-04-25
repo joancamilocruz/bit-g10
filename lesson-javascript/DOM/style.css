@@ -1,0 +1,39 @@
+ body {
+    background-color: rgb(221, 221, 204);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+ }
+
+ form {
+    display: flex;
+    border: 1px solid black;
+    display: flexbox;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: beige;
+    margin-left: 600px;
+    margin-right: 600px;
+ }
+
+ label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;  
+}
+
+.inputs { 
+    display: flex;
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+
