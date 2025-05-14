@@ -167,23 +167,23 @@ console.log('resultado:', resultado); */
 /*FUNCIONES*/
 
 function printHello(){
-    console.log('Hello!')
+    //console.log('Hello!')
 }
 
 printHello()
 
 function printGreeting(greeting){
-    console.log(greeting)
+   // console.log(greeting)
 }
 
 printGreeting('Hi')
 
 function printGreeting(greeting){
-    console.log(greeting)
+ //   console.log(greeting)
 }
 
 function greetingByName(firstName, lastName) {
-    console.log('Hello', firstName, lastName)
+//    console.log('Hello', firstName, lastName)
 }
 
 /*greetingByName('Pepita', 'Perez!')
@@ -241,14 +241,183 @@ dividirNumeros ()
 */
 
 const miFuncionAnonima = function () {
-    console.log('soy una función anonima')
+    //console.log('soy una función anonima')
 }
 
 miFuncionAnonima();
 
 const miFuncionFlecha = () => {
-    console.log('soy una función flecha');
+    //console.log('soy una función flecha');
 }
 
 miFuncionFlecha()
 
+// hoisting 
+
+/*CONTROL DE FLUJO*/ 
+// Secuencia
+/*
+console.log('1...');
+console.log('2...');
+console.log('3...'); */
+
+// condicionales 
+
+miVariable = true;
+/*
+if (miVariable){
+    console.log('Si, se cumplió la condición');
+}
+
+if (miVariable){
+    console.log('Si, se cumplió la condición');
+} else{
+console.log('No, no se cumplió la condición');
+}
+
+if (miVariable){
+    console.log('Si, se cumplió la condición 1');
+} else if (miVariable) {
+    console.log('No, no se cumplió la condición 2');
+}
+
+if (miVariable){
+    console.log('Si, se cumplió la condición 1');
+} else if (miVariable) {
+    console.log('No, no se cumplió la condición 2');
+} else { 
+        console.log('No, no se cumplió la condición 1 ni la condición 2');
+} */
+
+// Si es pepita saludela con un hola, si es pepito con un hello
+/*
+const nombre = 'pepita'
+
+if(nombre === 'pepita'){
+    console.log('Hola, Pepita!')
+} else if (nombre === 'pepito') {
+    console.log('Hello, Pepito!')
+}
+else {
+    console.log ('Hola, desconocido!')
+} */
+
+/* Crear una función que reciba una palabra, si la palabra es 'Hola'
+imprimir por consola 'HOLA'
+
+/* Crear una función que reciba una palabra
+- si la palabra es "hola", imprimir por consola "HOLA"
+-En caso contrario, imprima adios
+*/
+/*
+miVariable = true;
+
+switch (miVariable) {
+case 1: 
+console.log('soy 1'); 
+break; 
+case 2: 
+console.log ('soy 2');
+break;
+default:
+console.log ('no se cumplio ningun caso')
+}
+*/
+
+/*
+function sayHello (Palabra) {
+if(Palabra === 'hola'){
+console.log('if... HOLA');
+} else {
+    console.log('else...Adiós');
+}
+} 
+
+sayHello('hola');
+sayHello('chao');
+
+function diHola(palabra) {
+    switch (palabra){
+        case 'hola': 
+        console.log('case ... HOLA');
+        break; 
+    default:
+        console.log('case... adiós');
+    }
+}
+diHola('hola')
+diHola('adios')
+*/
+
+
+/*
+Crear una función con 3 parametros,
+1 - recibir un número
+2 - recibir un número 
+3 - recibir una palabra
+mostrar el resultado de las operaciones aritméticas básicas 
+según llamado
+suma, resta, multiplicación, división.
+ */
+
+/*
+function operacionesMatematicas (num1, num2, operacion) {
+    let resultado;
+
+if(operacion === 'suma') { 
+resultado = num1 + num2; 
+console.log('La suma de', num1, 'y', num2, 'es igual a =', resultado);    
+} else if (operacion === 'resta') { 
+resultado = num1 - num2; 
+console.log('La resta de', num1, 'y', num2, 'es igual a =', resultado);    
+} else if (operacion === 'multiplicacion') { 
+resultado = num1 * num2; 
+console.log('La multiplicación de', num1, 'y', num2, 'es igual a =', resultado);    
+} else if (operacion === 'division') { 
+resultado = num1 / num2; 
+console.log('La división de', num1, 'y', num2, 'es igual a =', resultado);    
+} else (
+    console.log('Error, por favor elija: suma, resta, multiplicación o división')
+)
+
+
+}
+
+operacionesMatematicas (1, 2, 'suma');
+operacionesMatematicas (5, 4, 'resta');
+operacionesMatematicas (4, 2, 'multiplicacion');
+operacionesMatematicas (10, 2, 'division');
+operacionesMatematicas (2, 4, 'potencia');
+*/
+
+function operacionesSw (num1, num2, operacion) {
+    let resultado;
+
+switch(operacion) {
+case 'suma':  
+resultado = num1 + num2;
+console.log('La suma de', num1, 'y', num2, 'es igual a =', resultado);
+break; 
+case 'resta':  
+resultado = num1 - num2;
+console.log('La resta de', num1, 'y', num2, 'es igual a =', resultado);
+break; 
+case 'multiplicacion':  
+resultado = num1 * num2;
+console.log('La multiplicación de', num1, 'y', num2, 'es igual a =', resultado);
+break; 
+case 'division':  
+resultado = num1 * num2;
+console.log('La división de', num1, 'y', num2, 'es igual a =', resultado);
+break; 
+default: 
+console.log('Error, por favor elija: suma, resta, multiplicación o división') 
+break;
+}}
+
+
+operacionesSw(1, 4, 'suma');
+operacionesSw(10, 4, 'resta');
+operacionesSw(10, 10, 'multiplicacion');
+operacionesSw(100, 4, 'division')
+operacionesSw(2, 3, 'potencia')
