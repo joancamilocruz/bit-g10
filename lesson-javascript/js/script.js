@@ -390,6 +390,7 @@ operacionesMatematicas (10, 2, 'division');
 operacionesMatematicas (2, 4, 'potencia');
 */
 
+/*
 function operacionesSw (num1, num2, operacion) {
     let resultado;
 
@@ -420,4 +421,40 @@ operacionesSw(1, 4, 'suma');
 operacionesSw(10, 4, 'resta');
 operacionesSw(10, 10, 'multiplicacion');
 operacionesSw(100, 4, 'division')
-operacionesSw(2, 3, 'potencia')
+operacionesSw(2, 3, 'potencia') */
+
+/*
+Leer un nombre de usuario y una contraseña. 
+-Si el usuario es 'pepa' y la contraseña es 'ABC123', mostrar
+'Bienvenida.
+De otra manera, mostrar acceso denegado.
+ */
+
+/*
+Pseudocódigo:
+INICIO:
+entrada a
+entrada b
+
+Si entrada a es igual a 'pepa' 
+y entraba b es igual a 'ABC123',
+
+Imprimir: mostrar 'Bienvenida'
+Si no cumple, imprimir: 'Acceso denegado'
+
+Motrar en consola
+
+FINAL
+*/
+
+function loginUser(usuario, contraseña) {
+    if (usuario === 'pepa' && contraseña === 'ABC123') {
+            console.log('Bienvenida')
+        } 
+        else {
+            console.log('Acceso denegado')
+        }
+    } 
+
+loginUser ('pepa', 'ABC123') 
+loginUser ('pepita', 'perez')
