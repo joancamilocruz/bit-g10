@@ -263,7 +263,7 @@ console.log('3...'); */
 
 // condicionales 
 
-miVariable = true;
+miVariable = 1;
 /*
 if (miVariable){
     console.log('Si, se cumplió la condición');
@@ -446,7 +446,7 @@ Motrar en consola
 
 FINAL
 */
-
+/*
 function loginUser(usuario, contraseña) {
     if (usuario === 'pepa' && contraseña === 'ABC123') {
             console.log('Bienvenida')
@@ -458,3 +458,97 @@ function loginUser(usuario, contraseña) {
 
 loginUser ('pepa', 'ABC123') 
 loginUser ('pepita', 'perez')
+*/
+
+
+/*ESTRUCTURA DE DATOS*/
+//Variable
+//Arreglo, Array, Vector, Lista
+/*
+let miArreglo = ['abc', 123, true, undefined, null, []];
+
+miArreglo = [
+    'monday', 
+    'tuesday', 
+    'wednesday', 
+    'thursday', 
+    'friday', 
+    'saturday', 
+    'sunday']
+    
+    console.log(miArreglo)
+console.log(miArreglo[3])
+*/
+
+// loops, ciclos, bucles, iteraciones
+/*
+let miArreglo = [
+    'sunday',
+    'monday', 
+    'tuesday', 
+    'wednesday', 
+    'thursday', 
+    'friday', 
+    'saturday',
+];
+
+console.log(miArreglo);
+
+for (let index = 0; index < miArreglo.length; index++) {
+console.log(miArreglo[index]);
+} */
+
+/* imprimir los numeros del 1 al 100 */
+/*
+let arregloNumerico = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+
+console.log((arregloNumerico));
+
+for (let i = 1; i < arregloNumerico.length; i++){
+    console.log(arregloNumerico[i]);
+}
+    */
+
+//Guardar los nombres de 10 paises e imprimir uno a uno por consola
+
+/*
+let nombresPaises = ['Colombia', 'México', 'Argentina', 'España', 'Perú', 'Chile', 'Ecuador', 'Venezuela', 'Guatemala', 'Cuba']
+
+for (let i = 0; i < nombresPaises.length; i++){
+    console.log('for -', nombresPaises[i]);
+}
+
+let index = 0;
+
+while(index < nombresPaises.length) {
+    console.log ('while -', nombresPaises[index]);
+    index++;
+}
+
+let guard = true; 
+
+while (guard === true) {
+    console.log('guard is TRUE');
+    guard = false; 
+} 
+    */
+
+/*Desafio: Pedir al usuario que adivine un número entre 1 y 5,
+-Dar maximo 2 intentos, si el usuario adivina el número,
+Mostrar ''Ganaste! adivinaste el número sñcreto'' 
+Si el usuario pierde, mostrar ''Perdiste, tuviste 2 intentos'' 
+*/
+
+
+/*
+Que haría el profe=
+-crear una variable para el número secreto. 
+-crear otra variable (let) para numero de intentos para empezar = 0  
+- una constante con el limite = 2
+
+otro lugar para almacenar el número que ingresa el usuario, 
+si número de usuario es igual al número secreto, si se cumple ''ganaste''
+si no se cumple, darle otro intento. 
+
+*/
+
