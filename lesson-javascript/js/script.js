@@ -552,3 +552,20 @@ si no se cumple, darle otro intento.
 
 */
 
+
+const numSectret = 3; 
+const numLimit = 2; 
+let numAttempts = 0; 
+
+const entrada = prompt('Ingrese un número del 1 al 5'); 
+ alert('ingresaste el número:' + entrada); 
+ console.log(entrada);
+
+
+while (entrada === numSectret) {
+    console.log ('Felicitaciones, GANASTE!');
+
+    
+}
+
+
