@@ -250,6 +250,16 @@ const miFuncionFlecha = () => {
     //console.log('soy una función flecha');
 }
 
+//return, retorno de una función.
+/*function fnRetorno() {
+    console.log('Hola, soy fnRetorno');
+    return 'Soy el valor retornado por la función'     
+}
+
+let valorRetornado = fnRetorno();
+console.log('valorRetornado:', valorRetornado);
+*/
+
 miFuncionFlecha()
 
 // hoisting 
@@ -464,6 +474,83 @@ loginUser ('pepita', 'perez')
 /*ESTRUCTURA DE DATOS*/
 //Variable
 //Arreglo, Array, Vector, Lista
+//Objecto, Object
+/*
+let miObjeto = {};
+miObjeto = {
+    //name: value
+}
+
+miObjeto = {
+    username: 'pepa',
+    password: 'ABC123',
+    greeting: () => {
+        console.log('hola');
+    }
+}
+console.log(miObjeto);
+console.log(miObjeto.username);
+console.log(miObjeto['password']);
+miObjeto.greeting();
+*/
+
+//Ejemplo: que le pedirias a un estudiante:
+
+/*
+let datosEstudiante  
+
+datosEstudiante = {
+    primerNombre: 'Oscar',
+    segundoNombre: 'Javier',
+    primerApellido: 'Jaramillo',
+    segundoApellido: 'Lopez',
+    edad: 21,
+    materiasFavoritas: ['ingles', 'matematicas', 'ciencias', 'español'],
+}
+
+console.log(datosEstudiante);
+*/
+
+/* Crear una función
+- Recibir por parámetros nombre y apellido
+- Guardar los parámetros recibidos en un objeto
+- Retorne nombre completo usando el objeto,
+Ejemplo de salida: Nombre completo: Pepita Pérez
+*/
+/*
+function printName(nombrePersona, apellidoPersona) {
+const obj = {
+    name: nombrePersona,
+    lastName: apellidoPersona,
+};
+return `Nombre completo: ${obj.name} ${obj.lastName}`;
+}
+ 
+console.log(printName('Joan', 'cruz')); 
+console.log(printName('Pedro', 'Perez')); 
+*/
+
+/* Crear una función que reciba del usuario nombre y apellido
+-Imprimir en consola un objeto con los datos recibidos
+-Retornar un arreglo con los valores recibidos.
+*/
+
+function miFuncion() {
+    const name= prompt ('Por favor ingrese un nombre');
+    const apellido = prompt ('por favor, ingrese un apellido');
+    console.log({name, apellido}); 
+    return [name, apellido];
+}
+
+resultado = miFuncion();
+console.log(resultado);
+
+console.log(resultado[1]);
+
+//printName('Pepita', 'Perez')
+
+
+
 /*
 let miArreglo = ['abc', 123, true, undefined, null, []];
 
@@ -533,12 +620,23 @@ while (guard === true) {
 } 
     */
 
+//INTERACCIÓN.
+// Input, Entrada.
+/*
+let entrada;
+//entrada = prompt();
+ entrada = prompt ('Escriba su nombre')
+
+// Output, Salida.
+console.log(entrada);
+alert('usted ingreso el nombre:' + entrada);
+document.write(entrada);
+*/
 /*Desafio: Pedir al usuario que adivine un número entre 1 y 5,
 -Dar maximo 2 intentos, si el usuario adivina el número,
-Mostrar ''Ganaste! adivinaste el número sñcreto'' 
+Mostrar ''Ganaste! adivinaste el número secreto'' y mostrar en que intento
 Si el usuario pierde, mostrar ''Perdiste, tuviste 2 intentos'' 
 */
-
 
 /*
 Que haría el profe=
@@ -552,20 +650,28 @@ si no se cumple, darle otro intento.
 
 */
 
+/*
+const numeroSecreto = 2;
+const numeroLimiteIntentos = 2;
+let numerointentosUsuario = 0; 
+const numeroUsuario = prompt('Escriba un número entre 1 y 5');
+let mensaje1 = ''; 
 
-const numSectret = 3; 
-const numLimit = 2; 
-let numAttempts = 0; 
+while (numerointentosUsuario < numeroLimiteIntentos ) {
+    numerointentosUsuario++; 
+    if (numeroUsuario === numeroSecreto) {
+        mensaje1 = 'Felicitaciones, GANASTE!'
+        break;
+    }
+    numerointentosUsuario++; 
+    }
 
-const entrada = prompt('Ingrese un número del 1 al 5'); 
- alert('ingresaste el número:' + entrada); 
- console.log(entrada);
-
-
-while (entrada === numSectret) {
-    console.log ('Felicitaciones, GANASTE!');
-
-    
+if (mensaje1 == '') {
+ mensaje1 = 'Perdiste, tuviste dos intentos';
 }
 
+alert(mensaje1);
+document.writeln ('se termino el juego')
+
+*/
 
