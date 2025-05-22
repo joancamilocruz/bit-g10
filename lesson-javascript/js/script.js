@@ -79,6 +79,17 @@ miVariable1 = 10;
 miVariable2 = 5;
 resultado = 0;
 
+/*CONVERSIÓN DE TIPOS
+
+let laVariable = '10';
+laVariable = Number (laVariable);
+laVariable = '11';
+laVariable = parseFloat (laVariable);
+laVariable = '12'
+laVariable = parseInt (laVariable);
+console.log(laVariable);
+console.log(typeof laVariable);*/
+
 
 // Concatenación
 const nombreCompleto = miVariable1 + miVariable2;
@@ -534,7 +545,7 @@ console.log(printName('Pedro', 'Perez'));
 -Imprimir en consola un objeto con los datos recibidos
 -Retornar un arreglo con los valores recibidos.
 */
-
+/*
 function miFuncion() {
     const name= prompt ('Por favor ingrese un nombre');
     const apellido = prompt ('por favor, ingrese un apellido');
@@ -548,7 +559,7 @@ console.log(resultado);
 console.log(resultado[1]);
 
 //printName('Pepita', 'Perez')
-
+*/
 
 
 /*
@@ -675,3 +686,42 @@ document.writeln ('se termino el juego')
 
 */
 
+/* Crear 4 funciones, cada uno debe realizar una operación aritmetica basica
+(suma, resta, multiplicación, y división)
+-cada función debe recibir 2 numeros y retornar el resultado según le
+corresponda.
+- Solicitar al usurio que ingrese 2 numeros enteros 
+-Mostrarle al usuario del resultado de cada operación. 
+
+ejm entrada: 10 2 
+ejm salida: 10 + 2 = 12
+*/
+
+const sumar = (a, b)=>{
+return a + b 
+};
+
+const restar = (a, b) => a - b 
+;
+
+const multiplicar = (a, b)=>{
+return a * b 
+};
+
+const dividir = (a, b)=>{
+if (b === 0){
+    return 'no se permite cero'
+} else {
+return a / b;
+} 
+};
+
+const num1 = parseInt(prompt ('ingrese el primer numero'));
+const num2 = parseInt (prompt ('ingrese el segundo numero'));
+
+const resultadoFinal = `${num1} + ${num2} = ${sumar(num1,num2)}<br>
+${num1} - ${num2} = ${restar(num1,num2)}<br>
+${num1} x ${num2} = ${multiplicar(num1,num2)}<br>
+${num1} / ${num2} = ${dividir(num1,num2)}`
+
+document.writeln(resultadoFinal)
