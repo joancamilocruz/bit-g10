@@ -4,6 +4,10 @@
 Comentario
 Multi-línea
 */
+import { add, substract, multiply, divide, works} from './operations.js';
+import getVowels from './vowels.js';
+import sayBye from '/messages.js'; 
+import {name, age} from './user.js'
 
 // Comentario de una línea
 
@@ -189,9 +193,9 @@ function printGreeting(greeting){
 
 printGreeting('Hi')
 
-function printGreeting(greeting){
+/*function printGreeting(greeting){
  //   console.log(greeting)
-}
+}*/
 
 function greetingByName(firstName, lastName) {
 //    console.log('Hello', firstName, lastName)
@@ -697,6 +701,7 @@ ejm entrada: 10 2
 ejm salida: 10 + 2 = 12
 */
 
+/*
 const sumar = (a, b)=>{
 return a + b 
 };
@@ -725,3 +730,112 @@ ${num1} x ${num2} = ${multiplicar(num1,num2)}<br>
 ${num1} / ${num2} = ${dividir(num1,num2)}`
 
 document.writeln(resultadoFinal)
+*/
+
+/*do while
+- pregunte al usuario si desea continuar,
+si el usuario escribe o ingresa exactamente 'NO', mostrar= 'ADIOS' y terminar 
+En caso contrario, mostrar = 'HOLA n° veces' 
+*/
+/*
+let guard = true
+i = 0
+guard = ''
+
+do{
+i++;
+guard = prompt('¿Desea continuar? para salir escriba NO')
+if (guard != 'NO') {
+    alert('Hola' + i + 'veces')
+} else {
+    alert('Adios')
+}
+}while(guard != 'NO') */
+
+/*
+let unaVariable = 18
+
+//condicion ? true : false 
+
+unaVariable >= 18? resultado = 'es mayor de edad' : resultado = 'no es mayor de edad'
+console.log(resultado);
+*/
+
+/*const phrase = prompt ('ingrese una frase')
+
+let count = 0 
+
+for(const letter of phrase) {
+if (letter ==='a' ||
+    letter === 'A' ||
+    letter === 'e' ||
+    letter === 'E' ||
+    letter === 'i' ||
+    letter === 'I' ||
+    letter === 'o' ||
+    letter === 'O' ||
+    letter === 'U' ||   
+    letter === 'u'
+) {
+count++;
+}
+}
+
+console.log(`la frase "${phrase}", tiene ${count} vocales`);
+*/
+
+// Spreed operator
+/*
+const weekDays = [
+    'monday',
+    'tuesday',
+    'wednesday',
+    'thursday',
+    'friday',
+]
+
+const weekEnds = [
+    'saturday',
+    'sunday',
+]
+
+const allDays = [...weekDays, ...weekEnds]
+console.log('all days:', allDays);
+
+// tambien se puede con objetos
+
+const vehicle1 = {
+  brand : 'seat',
+  model: 'León',
+  color: 'red',   
+};
+
+const vehicle2 = {
+    type : 'car',
+    year : '2011',
+    color : 'blue', 
+};
+
+const vehicle = {...vehicle1, ...vehicle2};
+console.log('vehicle:', vehicle);
+*/
+
+/* Solicitar del usuario y contraseña.
+-guardar datos de entrada, en un objeto.
+- imprima por consola los datos ingresados usando el spreed operator
+*/
+
+
+/*MODULARIZACIÓN*/
+console.log(works);
+let result = add(10, 2)
+console.log('result:', result);
+result = substract(10, 2);
+console.log('result:', result);
+result = multiply(10, 2);
+console.log('result:', result);
+result = divide(10, 2);
+console.log('result:', result);
+
+console.log(getVowels());
+console.log(sayBye());
