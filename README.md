@@ -108,21 +108,19 @@ Aquí quedará un registro de todo el contenido visto en las sesiones.
 
 * Bootstrap
   - Implementación
-  - Layout
+  * Layout
+    - Contenedores
     - Sistema de rejilla
     - Filas
     - Columnas
     - Breakpoints
-    - Contenedores
+  - Tipografía
+  - Iconos
+  - Imágenes
 
 ---
 
 - DRY (Don't Repeat Yourself)
-
-* Revisión
-  - Cumple (1)
-  - Cumple parcialmente (0.5)
-  - No cumple (0)
 
 ---
 
@@ -144,21 +142,71 @@ Aquí quedará un registro de todo el contenido visto en las sesiones.
   - 768px
   - 992px
 
-#### Git, GitHub, HTML, CSS, JavaScript
+#### Git, GitHub, HTML, CSS, Bootstrap, JavaScript
 2. Crear un sitio web
 
 - Tema: Libre (Tema nuevo)
 - Fecha de entrega: Lunes, 12 de Mayo de 2025
-- Entrega: Nombre + Apellido + URL en canal de Discord
-- Repositorio: "bit-1"
-- README.md
-- En línea (GitHub pages - URL de acceso público)
-- HTML (más de un documento, estructura, contenido original)
-- CSS (archivo externo, orden, variables, fuentes, colores)
-- JavaScript (archivo externo, modo estricto)
-- Figma (Diseño web, UI, UX - Imagen en el README)
-* Responsive
-  - 576px
-  - 768px
-  - 992px
-  - 992px+
+* Entrega:
+  * En canal de Discord (2-entrega-calificable)
+    - Nombre Completo
+    - URL GitHub Pages
+    - URL GitHub Repositorio
+  * Presentación del proyecto
+    - Compartir camara, micrófono y pantalla
+    - Tiempo límite de máximo de 3 minutos
+
+* Criterios de aceptación:
+  - Nombre del repositorio: "bit-1"
+  * README.md
+    - Título
+    - Descripción
+    - Autor
+    - Wireframe (Imagen en el README)
+  - Estructura de directorios y archivos (minúsculas, sin acentos, sin espacios)
+  - HTML (más de un documento, contenido original)
+  - CSS (Implementación archivo externo)
+  - Bootstrap (Implementación)
+  - JavaScript (Implementación archivo externo, modo estricto)
+  - Funcionamiento de un formulario (Evidencia de datos ingresados)
+  * Responsive
+    - 575px/576px
+    - 768px
+    - 992px>=
+
+#### Git, GitHub, HTML, CSS, Bootstrap, JavaScript, JSON
+3. Crear una página web
+
+- Tema: Nuestro grupo
+- Fecha de entrega: Martes, 3 de Junio de 2025
+* Entrega:
+  * En canal de Discord (3-entrega-calificable)
+    - Nombre Completo
+    - URL GitHub Pages
+    - URL GitHub Repositorio
+
+* Criterios de aceptación:
+  - Nombre del repositorio: "bit-2"
+  * README.md
+    - Título
+    - Descripción
+    - Autor
+  - Estructura de directorios y archivos (minúsculas, sin acentos, sin espacios)
+  - HTML (contenido original)
+  - CSS (opcional)
+  - Bootstrap (opcional)
+  - JavaScript (Implementación archivo externo, modo estricto)
+  * JSON (archivo fuente, no modificar, usar toda la información)
+    - bit-g10/workshops/05/file.json
+  * Responsive
+    - 575px<=
+    - 576px>=
+    - 768px>=
+    - 992px>=
+
+---
+
+* Revisión
+  - Cumple (1)
+  - Cumple parcialmente (0.5)
+  - No cumple (0)

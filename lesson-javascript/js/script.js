@@ -6,8 +6,6 @@ Multi-línea
 */
 import { add, substract, multiply, divide, works} from './operations.js';
 import getVowels from './vowels.js';
-import sayBye from '/messages.js'; 
-import {name, age} from './user.js'
 
 // Comentario de una línea
 
